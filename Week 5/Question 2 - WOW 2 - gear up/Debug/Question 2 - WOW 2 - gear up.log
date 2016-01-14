@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/1/14 18:18:32。
+     1>项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 2 - WOW 2 - gear up\Question 2 - WOW 2 - gear up.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt WOW2.cpp
+         WOW2.cpp
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 2 - wow 2 - gear up\wow2.cpp(130): warning C4101: “warrior”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 2 - WOW 2 - gear up\Debug\Question 2 - WOW 2 - gear up.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 2 - WOW 2 - gear up\Debug\Question 2 - WOW 2 - gear up.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 2 - WOW 2 - gear up\Debug\Question 2 - WOW 2 - gear up.lib" /MACHINE:X86 Debug\WOW2.obj
+         Question 2 - WOW 2 - gear up.vcxproj -> C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 2 - WOW 2 - gear up\Debug\Question 2 - WOW 2 - gear up.exe
+     1>已完成生成项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 2 - WOW 2 - gear up\Question 2 - WOW 2 - gear up.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.04
