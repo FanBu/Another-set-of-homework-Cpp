@@ -1,8 +1,21 @@
 #include <iostream>
 #include <cstring>
 #include <cstdlib>
+#include <string>
 using namespace std;
-// 1
+
+class MyString :public string {
+public:
+	MyString() : string() {};
+	MyString(const char* str) : string(str) {};
+	MyString(const string &str) : string(str) {};
+	MyString operator () (int start, int len) {
+		return this->substr(start, len);
+	}
+};
+
+
+
 int CompareString(const void * e1, const void * e2) {
 	MyString * s1 = (MyString *)e1;
 	MyString * s2 = (MyString *)e2;
