@@ -1,0 +1,63 @@
+﻿生成启动时间为 2016/1/14 10:19:10。
+     1>项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 1\Question 1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Question1.cpp
+         Question1.cpp
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(7): error C2065: “MyString”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(7): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(7): error C2059: 语法错误:“)”
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(8): error C2065: “MyString”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(8): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(8): error C2059: 语法错误:“)”
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(9): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(9): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(10): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(10): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(11): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(11): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C2065: “MyString”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C2146: 语法错误: 缺少“;”(在标识符“s1”的前面)
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C3861: “s1”: 找不到标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C3861: “s3”: 找不到标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(14): error C3861: “s4”: 找不到标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(15): error C2065: “MyString”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(15): error C2146: 语法错误: 缺少“;”(在标识符“SArray”的前面)
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(15): error C2065: “SArray”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(16): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(16): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(16): error C2065: “s3”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(16): error C2065: “s4”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(17): error C2065: “s4”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(17): error C2065: “s3”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(17): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(18): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(19): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(20): error C2065: “s3”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(21): error C2065: “s4”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(22): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(23): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(23): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(24): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(25): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(26): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(27): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(28): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(29): error C2065: “s4”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(29): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(30): error C2065: “s4”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(31): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(31): error C2065: “s2”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(31): error C2065: “s4”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(32): error C2065: “s1”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(33): error C2065: “SArray”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(33): error C2065: “MyString”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(35): error C2065: “SArray”: 未声明的标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(37): error C3861: “s1”: 找不到标识符
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\week 5\question 1\question1.cpp(39): error C3861: “s1”: 找不到标识符
+     1>已完成生成项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\Week 5\Question 1\Question 1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.48
