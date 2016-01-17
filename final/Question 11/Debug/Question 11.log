@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/1/17 20:36:16。
+     1>项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\final\Question 11\Question 11.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Question 11.cpp"
+         Question 11.cpp
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\final\question 11\question 11.cpp(35): error C2664: “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::multimap<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::pair<const _Kty,_Ty> &)”: 无法将参数 1 从“const char [4]”转换为“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>”
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+         c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\final\question 11\question 11.cpp(35): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\final\question 11\question 11.cpp(44): error C2664: “std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::multimap<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::insert(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::pair<const _Kty,_Ty> &)”: 无法将参数 1 从“int”转换为“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>”
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=std::string
+                 ]
+         c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\final\question 11\question 11.cpp(44): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>已完成生成项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\final\Question 11\Question 11.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.49

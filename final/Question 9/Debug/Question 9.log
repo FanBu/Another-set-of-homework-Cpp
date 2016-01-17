@@ -1,0 +1,43 @@
+﻿生成启动时间为 2016/1/17 18:14:16。
+     1>项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\final\Question 9\Question 9.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Question 9.cpp"
+         Question 9.cpp
+     1>c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\final\question 9\question 9.cpp(28): error C2679: 二进制“<<”: 没有找到接受“const std::string”类型的右操作数的运算符(或没有可接受的转换)
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(497): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(477): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(457): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(437): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(417): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(396): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(376): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(1021): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(983): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(973): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(966): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(959): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(952): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(826): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(779): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(741): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+         d:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(694): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+         c:\users\fan\documents\visual studio 2015\projects\c++ on coursera\final\question 9\question 9.cpp(28): note: 尝试匹配参数列表“(std::ostream, const std::string)”时
+     1>已完成生成项目“C:\Users\Fan\Documents\Visual Studio 2015\Projects\C++ on Coursera\final\Question 9\Question 9.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.45

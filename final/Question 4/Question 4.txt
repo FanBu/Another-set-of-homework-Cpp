@@ -1,0 +1,41 @@
+编程题＃4：计算整数平方和
+
+来源: 北京大学在线程序评测系统POJ (Coursera声明：在POJ上完成的习题将不会计入Coursera的最后成绩。)
+
+总时间限制: 1000ms 内存限制: 1024kB
+
+描述
+
+下列程序每次读入一个整数N，若N为0则退出，否则输出N和N的平方。
+
+#include <iostream>
+using namespace std;
+// 在此处补充你的代码
+int main(int argc, char* argv[]) {
+        CType obj;
+        int n;
+        cin>>n;
+        while ( n ) {
+                obj.setvalue(n);
+                cout<<obj++<<" "<<obj<<endl;
+                cin>>n;
+        }
+        return 0;
+}
+输入
+
+K个整数。除最后一个数据外，其他数据均不为0。
+
+输出
+
+K-1行。第I行输出第I个输入数和它的平方。
+
+样例输入
+
+1 5 8 9 0
+样例输出
+
+1 1
+5 25
+8 64
+9 81

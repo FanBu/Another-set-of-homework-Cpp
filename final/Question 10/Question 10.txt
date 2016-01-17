@@ -1,0 +1,82 @@
+编程题＃10：输出指定结果二
+
+来源: 北京大学在线程序评测系统POJ (Coursera声明：在POJ上完成的习题将不会计入Coursera的最后成绩。)
+
+总时间限制: 1000ms 内存限制: 1024kB
+
+描述
+
+通过填空使得程序输出的结果符合下面的要求。
+
+#include <iostream>
+#include <map>
+using namespace std;
+// 在此处补充你的代码
+int A::count = 0;
+void func(B b) { }
+int main()
+{
+        A a1(5),a2;
+        cout << A::count << endl;
+        B b1(4);
+        cout << A::count << endl;
+        func(b1);
+        cout << A::count << endl;
+        A * pa = new B(4);
+        cout << A::count << endl;
+        delete pa;
+        cout << A::count << endl;
+        return 0;
+}
+输入
+
+不需要输入。
+
+输出
+
+使得程序的输出结果是：
+
+2
+
+3
+
+B::destructor
+
+A::destructor
+
+3
+
+4
+
+B::destructor
+
+A::destructor
+
+3
+
+B::destructor
+
+A::destructor
+
+A::destructor
+
+A::destructor
+
+样例输入
+
+不需要输入。
+样例输出
+
+2
+3
+B::destructor
+A::destructor
+3
+4
+B::destructor
+A::destructor
+3
+B::destructor
+A::destructor
+A::destructor
+A::destructor
